@@ -1,0 +1,44 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 12,
+    "editor.tabSize": 3,
+    "editor.wordWrapColumn": 100,
+    "editor.wordWrap": "wordWrapColumn",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "explorer.confirmDelete": false,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": "vs-minimal",
+    "editor.accessibilitySupport": "off",
+    "editor.insertSpaces": false,
+    "editor.dragAndDrop": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "debug.console.fontSize": 12,
+    "markdown.preview.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "mssql.resultsFontSize": 12,
+    "prettier.bracketSpacing": false,
+    "prettier.printWidth": 100,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 3,
+    "prettier.useTabs": true,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoIndent": false,
+    "editor.autoSurround": "never",
+    "window.zoomLevel": 0
+}

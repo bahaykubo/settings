@@ -24,3 +24,4 @@ code --install-extension vscjava.vscode-java-pack
 code --install-extension vscjava.vscode-java-test
 code --install-extension vscjava.vscode-maven
 code --install-extension mtxr.sqltools
+code --install-extension ms-azuretools.vscode-cosmosdb

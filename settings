@@ -39,6 +39,9 @@
     "editor.autoClosingQuotes": "never",
     "editor.autoIndent": false,
     "editor.autoSurround": "never",
+    "workbench.colorCustomizations": {
+        "editor.background": "#2e2c2b"
+    },    
     "editor.tokenColorCustomizations": {
         "strings": "#ce9178",
         "comments": "#6A9955",

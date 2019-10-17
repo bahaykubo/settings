@@ -25,6 +25,7 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "diffEditor.renderSideBySide": false,
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "debug.console.fontSize": 12,
     "markdown.preview.fontSize": 12,

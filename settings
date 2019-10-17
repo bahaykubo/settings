@@ -1,5 +1,6 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "newUntitledFile",    
+    "workbench.editor.showTabs": true,
     "editor.fontSize": 12,
     "editor.tabSize": 3,
     "editor.wordWrapColumn": 120,

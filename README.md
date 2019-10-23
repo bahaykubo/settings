@@ -1,1 +1,1 @@
-# vscode-settings
+# app settings

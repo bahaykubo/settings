@@ -45,15 +45,15 @@
         "editor.background": "#2e2c2b"
     },    
     "editor.tokenColorCustomizations": {
-        "strings": "#ce9178",
+        "strings": "#b4916a",
         "comments": "#6A9955",
-        "numbers": "#ce9178",
+        "numbers": "#b4916a",
         "types": "#BFBFBF",
         "textMateRules": [
             {
                 "scope": "punctuation.definition.string, constant.character, constant.character.escaped, constant.numeric, string.regexp, constant.numeric.css, keyword.other.unit.css, constant.other.color.css, support.constant.css, string, punctuation.definition.string",
                 "settings": {
-                    "foreground": "#ce9178"
+                    "foreground": "#b4916a"
                 }
             },
             {

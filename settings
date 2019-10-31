@@ -41,6 +41,7 @@
             }
         ],
     },
+	"files.trimTrailingWhitespace": true,
     "java.configuration.checkProjectSettingsExclusions": false,
     "java.errors.incompleteClasspath.severity": "ignore",
     "explorer.confirmDelete": false,    

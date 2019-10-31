@@ -1,49 +1,18 @@
-{
-    "workbench.startupEditor": "newUntitledFile",    
-    "workbench.editor.showTabs": true,
+{    
     "editor.fontSize": 12,
-    "editor.tabSize": 3,
+    "editor.tabSize": 4,
     "editor.wordWrapColumn": 120,
     "editor.wordWrap": "wordWrapColumn",
-    "java.errors.incompleteClasspath.severity": "ignore",
-    "explorer.confirmDelete": false,
-    "java.configuration.checkProjectSettingsExclusions": false,
     "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": true,
-    "workbench.iconTheme": "material-icon-theme",
     "editor.accessibilitySupport": "off",
     "editor.insertSpaces": false,
     "editor.dragAndDrop": false,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.jediEnabled": false,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "diffEditor.renderSideBySide": false,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "debug.console.fontSize": 12,
-    "markdown.preview.fontSize": 12,
-    "terminal.integrated.fontSize": 12,
-    "mssql.resultsFontSize": 12,
-    "prettier.bracketSpacing": false,
-    "prettier.printWidth": 120,
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 3,
-    "prettier.useTabs": true,
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
+    "editor.detectIndentation": false,
     "editor.autoIndent": false,
     "editor.autoSurround": "never",
-    "workbench.colorCustomizations": {
-        "editor.background": "#2e2c2b"
-    },    
     "editor.tokenColorCustomizations": {
         "strings": "#cca77c",
         "comments": "#6A9955",
@@ -72,11 +41,49 @@
             }
         ],
     },
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "explorer.confirmDelete": false,    
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",    
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 4,
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.tabSize": 4,
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 4,
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.tabSize": 4,
+    },
+    "diffEditor.renderSideBySide": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "debug.console.fontSize": 12,
+    "markdown.preview.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "mssql.resultsFontSize": 12,
+    "prettier.bracketSpacing": false,
+    "prettier.printWidth": 120,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": true,
-    "workbench.sideBar.location": "left",
-    "[python]": {},
+    "workbench.sideBar.location": "left",    
     "workbench.editor.enablePreview": false,
     "workbench.tree.indent": 32,
-    "workbench.colorTheme": "Paper Dark"
+    "workbench.colorCustomizations": {
+        "editor.background": "#2e2c2b"
+    }, 
+    "workbench.colorTheme": "Paper Dark",
+    "workbench.startupEditor": "newUntitledFile",    
+    "workbench.editor.showTabs": true
 }

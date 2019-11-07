@@ -1,94 +1,89 @@
 {
-	"breadcrumbs.enabled": true,
-	"diffEditor.renderSideBySide": false,
-	"editor.fontSize": 12,
-	"editor.tabSize": 4,
-	"editor.wordWrapColumn": 120,
-	"editor.wordWrap": "wordWrapColumn",
-	"editor.minimap.enabled": false,
-	"editor.accessibilitySupport": "off",
-	"editor.insertSpaces": false,
-	"editor.dragAndDrop": false,
-	"editor.suggestSelection": "first",
-	"editor.autoClosingBrackets": "never",
-	"editor.autoClosingQuotes": "never",
-	"editor.detectIndentation": false,
-	"editor.autoIndent": false,
-	"editor.autoSurround": "never",
-	"editor.tokenColorCustomizations": {
-		"strings": "#cca77c",
-		"comments": "#6A9955",
-		"numbers": "#cca77c",
-		"types": "#BFBFBF",
-		"textMateRules": [
-			{
-				"scope": "punctuation.definition.string, constant.character, constant.character.escaped, constant.numeric, string.regexp, constant.numeric.css, keyword.other.unit.css, constant.other.color.css, support.constant.css, string, punctuation.definition.string",
-				"settings": {
-					"foreground": "#cca77c"
-				}
-			},
-			{
-				"scope": "comment, comment.block, punctuation.definition.comment",
-				"settings": {
-					"foreground": "#6A9955",
-					"fontStyle": ""
-				}
-			},
-			{
-				"scope": "support.class, entity.name.class, entity.other.inherited-class",
-				"settings": {
-					"foreground": "#BFBFBF",
-					"fontStyle": ""
-				}
-			}
-		],
-	},
-	"files.trimTrailingWhitespace": true,
-	"java.configuration.checkProjectSettingsExclusions": false,
-	"java.errors.incompleteClasspath.severity": "ignore",
-	"explorer.confirmDelete": false,
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"python.jediEnabled": false,
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-		"editor.tabSize": 4,
-	},
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features",
-		"editor.tabSize": 4,
-	},
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-		"editor.tabSize": 4,
-	},
-	"[python]": {
-		"editor.defaultFormatter": "ms-python.python",
-		"editor.tabSize": 4,
-	},
-	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-	"debug.console.fontSize": 12,
-	"markdown.preview.fontSize": 12,
-	"terminal.integrated.fontSize": 12,
-	"mssql.resultsFontSize": 12,
-	"prettier.bracketSpacing": false,
-	"prettier.printWidth": 120,
-	"prettier.singleQuote": true,
-	"prettier.tabWidth": 4,
-	"prettier.useTabs": true,
-	"workbench.activityBar.visible": true,
-	"workbench.colorTheme": "Visual Studio Dark",
-	"workbench.iconTheme": "material-icon-theme",
-	"workbench.colorCustomizations": {
-		"editor.background": "#2e2c2b",
-		"editor.lineHighlightBorder": "#00000000",
-		"editor.lineHighlightBackground": "#44414080",
-		"editorBracketMatch.border": "#00000000",
-		"editorBracketMatch.background": "#add6ff26",
-	},
-	"workbench.editor.enablePreview": false,
-	"workbench.editor.showTabs": true,
-	"workbench.sideBar.location": "left",
-	"workbench.startupEditor": "newUntitledFile",
-	"workbench.tree.indent": 32,
-	"window.zoomLevel": -0.22
+    "breadcrumbs.enabled": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.fontSize": 12,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.wordWrapColumn": 120,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.minimap.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "editor.dragAndDrop": false,
+    "editor.suggestSelection": "first",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.detectIndentation": true,
+    "editor.autoIndent": true,
+    "editor.autoSurround": "never",
+    "editor.tokenColorCustomizations": {
+        "strings": "#cca77c",
+        "comments": "#6A9955",
+        "numbers": "#cca77c",
+        "types": "#BFBFBF",
+        "textMateRules": [
+            {
+                "scope": "punctuation.definition.string, constant.character, constant.character.escaped, constant.numeric, string.regexp, constant.numeric.css, keyword.other.unit.css, constant.other.color.css, support.constant.css, string, punctuation.definition.string",
+                "settings": {
+                    "foreground": "#cca77c"
+                }
+            },
+            {
+                "scope": "comment, comment.block, punctuation.definition.comment",
+                "settings": {
+                    "foreground": "#6A9955",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "support.class, entity.name.class, entity.other.inherited-class",
+                "settings": {
+                    "foreground": "#BFBFBF",
+                    "fontStyle": ""
+                }
+            }
+        ],
+    },
+    "files.trimTrailingWhitespace": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "explorer.confirmDelete": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+    },
+    "[python]": {
+    },
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "debug.console.fontSize": 12,
+    "markdown.preview.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "mssql.resultsFontSize": 12,
+    "prettier.bracketSpacing": false,
+    "prettier.printWidth": 120,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "editor.background": "#2e2c2b",
+        "editor.lineHighlightBorder": "#00000000",
+        "editor.lineHighlightBackground": "#44414080",
+        "editorBracketMatch.border": "#00000000",
+        "editorBracketMatch.background": "#add6ff26",
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.showTabs": true,
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.tree.indent": 28,
+    "window.zoomLevel": -0.22
 }

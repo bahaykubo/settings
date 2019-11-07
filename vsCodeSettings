@@ -35,10 +35,16 @@
                 }
             },
             {
-                "scope": "support.class, entity.name.class, entity.other.inherited-class",
+                "scope": "support.class, entity.name.class, entity.other.inherited-class,",
                 "settings": {
                     "foreground": "#BFBFBF",
                     "fontStyle": ""
+                }
+            },
+            {
+                "scope": "support.type.vendored.property-name, support.type.property-name, variable.css, variable.scss, variable.other.less, source.coffee.embedded",
+                "settings": {
+                    "foreground": "#569cd6",
                 }
             }
         ],
@@ -63,8 +69,8 @@
     "python.linting.enabled": true,
     "python.linting.pycodestyleEnabled": true,
     "python.linting.pycodestyleArgs": [
-		"--max-line-length=120"
-	],
+        "--max-line-length=120"
+    ],
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "debug.console.fontSize": 12,
     "markdown.preview.fontSize": 12,
@@ -90,5 +96,5 @@
     "workbench.sideBar.location": "left",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.tree.indent": 28,
-    "window.zoomLevel": -0.22
+    "window.zoomLevel": -0.22,
 }

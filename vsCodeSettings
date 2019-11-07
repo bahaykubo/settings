@@ -43,7 +43,7 @@
             }
         ],
     },
-    "files.trimTrailingWhitespace": true,
+    "files.trimTrailingWhitespace": false,
     "java.configuration.checkProjectSettingsExclusions": false,
     "java.errors.incompleteClasspath.severity": "ignore",
     "explorer.confirmDelete": false,
@@ -60,6 +60,11 @@
     },
     "[python]": {
     },
+    "python.linting.enabled": true,
+	"python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+		"--max-line-length=120"
+	],
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "debug.console.fontSize": 12,
     "markdown.preview.fontSize": 12,

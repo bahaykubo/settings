@@ -43,7 +43,7 @@
             }
         ],
     },
-    "files.trimTrailingWhitespace": false,
+    "files.trimTrailingWhitespace": true,
     "java.configuration.checkProjectSettingsExclusions": false,
     "java.errors.incompleteClasspath.severity": "ignore",
     "explorer.confirmDelete": false,
@@ -61,7 +61,7 @@
     "[python]": {
     },
     "python.linting.enabled": true,
-	"python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleEnabled": true,
     "python.linting.pycodestyleArgs": [
 		"--max-line-length=120"
 	],

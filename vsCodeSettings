@@ -20,6 +20,7 @@
         "comments": "#6A9955",
         "numbers": "#cca77c",
         "types": "#BFBFBF",
+        "keywords": "#5fafd7",
         "textMateRules": [
             {
                 "scope": "punctuation.definition.string, constant.character, constant.character.escaped, constant.numeric, string.regexp, constant.numeric.css, keyword.other.unit.css, constant.other.color.css, support.constant.css, string, punctuation.definition.string",
@@ -42,9 +43,9 @@
                 }
             },
             {
-                "scope": "support.type.vendored.property-name, support.type.property-name, variable.css, variable.scss, variable.other.less, source.coffee.embedded",
+                "scope": "support.type.vendored.property-name, support.type.property-name, variable.css, variable.scss, variable.other.less, source.coffee.embedded, variable.language, constant.language, entity.name.tag,keyword.operator.new, keyword.operator.expression, keyword.operator.cast, keyword.operator.sizeof, keyword.operator.typeid, keyword.operator.alignas, keyword.operator.instanceof, keyword.operator.logical.python, keyword.operator.wordlike",
                 "settings": {
-                    "foreground": "#569cd6",
+                    "foreground": "#5fafd7",
                 }
             }
         ],

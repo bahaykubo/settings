@@ -19,7 +19,7 @@
         "strings": "#cca77c",
         "comments": "#6A9955",
         "numbers": "#cca77c",
-        "types": "#BFBFBF",
+        "types": "#cccccc",
         "keywords": "#5fafd7",
         "textMateRules": [
             {
@@ -36,14 +36,14 @@
                 }
             },
             {
-                "scope": "support.class, entity.name.class, entity.other.inherited-class,",
+                "scope": "support.class, entity.name.class, entity.other.inherited-class, variable.language, constant.language",
                 "settings": {
-                    "foreground": "#BFBFBF",
+                    "foreground": "#cccccc",
                     "fontStyle": ""
                 }
             },
             {
-                "scope": "support.type.vendored.property-name, support.type.property-name, variable.css, variable.scss, variable.other.less, source.coffee.embedded, variable.language, constant.language, entity.name.tag,keyword.operator.new, keyword.operator.expression, keyword.operator.cast, keyword.operator.sizeof, keyword.operator.typeid, keyword.operator.alignas, keyword.operator.instanceof, keyword.operator.logical.python, keyword.operator.wordlike",
+                "scope": "support.type.vendored.property-name, support.type.property-name, variable.css, variable.scss, variable.other.less, source.coffee.embedded,  entity.name.tag,keyword.operator.new, keyword.operator.expression, keyword.operator.cast, keyword.operator.sizeof, keyword.operator.typeid, keyword.operator.alignas, keyword.operator.instanceof, keyword.operator.logical.python, keyword.operator.wordlike",
                 "settings": {
                     "foreground": "#5fafd7",
                 }
@@ -87,6 +87,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
         "editor.background": "#2e2c2b",
+        "editor.foreground": "#cccccc",
         "editor.lineHighlightBorder": "#00000000",
         "editor.lineHighlightBackground": "#44414080",
         "editorBracketMatch.border": "#00000000",

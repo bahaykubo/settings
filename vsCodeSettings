@@ -1,6 +1,6 @@
 {
     "breadcrumbs.enabled": true,
-    "diffEditor.renderSideBySide": false,
+    "diffEditor.renderSideBySide": true,
     "editor.fontSize": 12,
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
@@ -77,11 +77,6 @@
     "markdown.preview.fontSize": 12,
     "terminal.integrated.fontSize": 12,
     "mssql.resultsFontSize": 12,
-    "prettier.bracketSpacing": false,
-    "prettier.printWidth": 120,
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 4,
-    "prettier.useTabs": true,
     "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "material-icon-theme",
@@ -98,5 +93,24 @@
     "workbench.sideBar.location": "left",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.tree.indent": 28,
-    "window.zoomLevel": -0.22,
+    "window.zoomLevel": 0,
+    "rest-client.previewOption": "exchange",
+    "rest-client.timeoutinmilliseconds": 55000,
+    "rest-client.fontSize": 12,
+    "rest-client.fontFamily": "Consolas, 'Courier New', monospace",
+    "rest-client.environmentVariables": {
+        "$shared":{
+            "envUserID": "1"
+        },
+        "dev": {
+            "envUserID": "2"
+        },
+        "test": {
+            "envUserID": "3"
+        },
+        "production": {
+            "envUserID": "4"
+        }
+    },
+    "diffEditor.ignoreTrimWhitespace": false
 }

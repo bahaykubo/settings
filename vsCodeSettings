@@ -81,7 +81,7 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
-        "editor.background": "#2e2c2b",
+        "editor.background": "#252525",
         "editor.foreground": "#cccccc",
         "editor.lineHighlightBorder": "#00000000",
         "editor.lineHighlightBackground": "#44414080",

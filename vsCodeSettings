@@ -87,6 +87,9 @@
         "editor.lineHighlightBackground": "#44414080",
         "editorBracketMatch.border": "#00000000",
         "editorBracketMatch.background": "#add6ff26",
+        "statusBar.background" : "#3a3a3a",
+        "statusBar.noFolderBackground" : "#2a2a2a",
+        "statusBar.debuggingBackground": "#3a3a3a"
     },
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": true,

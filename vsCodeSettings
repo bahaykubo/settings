@@ -14,7 +14,7 @@
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
     "editor.detectIndentation": true,
-    "editor.autoIndent": true,
+    "editor.autoIndent": "keep",
     "editor.autoSurround": "never",
     "editor.tokenColorCustomizations": {
         "strings": "#cca77c",
@@ -108,7 +108,7 @@
     "window.zoomLevel": 0,
     "rest-client.previewOption": "exchange",
     "rest-client.timeoutinmilliseconds": 55000,
-    "rest-client.fontSize": 12,
+    "rest-client.fontSize": 11,
     "rest-client.fontFamily": "Consolas, 'Courier New', monospace",
     "rest-client.environmentVariables": {
         "$shared":{

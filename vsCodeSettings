@@ -20,7 +20,7 @@
         "strings": "#cca77c",
         "comments": "#6A9955",
         "numbers": "#cca77c",
-        "types": "#cccccc",
+        "types": "#c5c5c5",
         "keywords": "#5fafd7",
         "textMateRules": [
             {
@@ -37,9 +37,9 @@
                 }
             },
             {
-                "scope": "support.class, entity.name.class, entity.other.inherited-class, variable.language, constant.language",
+                "scope": "support.class, entity.name.class, entity.other.inherited-class, variable.language, constant.language, keyword.operator",
                 "settings": {
-                    "foreground": "#cccccc",
+                    "foreground": "#c5c5c5",
                     "fontStyle": ""
                 }
             },
@@ -90,8 +90,8 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
-        "editor.background": "#252525",
-        "editor.foreground": "#cccccc",
+        "editor.background": "#222222",
+        "editor.foreground": "#c5c5c5",
         "editor.lineHighlightBorder": "#00000000",
         "editor.lineHighlightBackground": "#44414080",
         "editorBracketMatch.border": "#00000000",

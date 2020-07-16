@@ -37,7 +37,7 @@
                 }
             },
             {
-                "scope": "support.class, entity.name.class, entity.other.inherited-class, variable.language, constant.language, keyword.operator",
+                "scope": "support.class, support.function, entity.name.class, entity.name.function.decorator, entity.other.inherited-class, variable.language, constant.language, keyword.operator",
                 "settings": {
                     "foreground": "#c5c5c5",
                     "fontStyle": ""

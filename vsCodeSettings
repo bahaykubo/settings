@@ -20,7 +20,7 @@
         "strings": "#cca77c",
         "comments": "#6A9955",
         "numbers": "#cca77c",
-        "types": "#c5c5c5",
+        "types": "#b8b2ae",
         "keywords": "#5fafd7",
         "textMateRules": [
             {
@@ -39,7 +39,7 @@
             {
                 "scope": "support.class, support.function, entity.name.class, entity.name.function.decorator, entity.other.inherited-class, variable.language, constant.language, keyword.operator",
                 "settings": {
-                    "foreground": "#c5c5c5",
+                    "foreground": "#b8b2ae",
                     "fontStyle": ""
                 }
             },
@@ -90,15 +90,20 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
-        "editor.background": "#222222",
-        "editor.foreground": "#c5c5c5",
+        "editor.background": "#1f1d1d",
+        "editor.foreground": "#b8b2ae",
         "editor.lineHighlightBorder": "#00000000",
         "editor.lineHighlightBackground": "#44414080",
         "editorBracketMatch.border": "#00000000",
         "editorBracketMatch.background": "#add6ff26",
         "statusBar.background" : "#3a3a3a",
         "statusBar.noFolderBackground" : "#2a2a2a",
-        "statusBar.debuggingBackground": "#3a3a3a"
+        "statusBar.debuggingBackground": "#3a3a3a",
+        "sideBar.background": "#1f1d1d",
+        "sideBar.foreground": "#b8b2ae",
+        "terminal.background": "#1f1d1d",
+        "terminal.foreground": "#b8b2ae",
+        "terminal.ansiBrightWhite": "#b8b2ae"
     },
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": true,

@@ -37,7 +37,7 @@
                 }
             },
             {
-                "scope": "support.class, support.function, entity.name.class, entity.name.function.decorator, entity.other.inherited-class, variable.language, constant.language, keyword.operator, variable.other.enummember, variable.other, punctuation.accessor",
+                "scope": "support.class, support.function, entity.name.class, entity.name.function.decorator, entity.other.inherited-class, variable.language, constant.language, keyword.operator, variable.other.enummember, variable.other, punctuation.accessor, meta.brace",
                 "settings": {
                     "foreground": "#a4a4a4",
                     "fontStyle": ""

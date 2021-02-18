@@ -18,10 +18,10 @@
     "editor.autoSurround": "never",
     "editor.tokenColorCustomizations": {
         "strings": "#cca77c",
-        "comments": "#6A9955",
+        "comments": "#539547",
         "numbers": "#cca77c",
-        "types": "#b8b2ae",
-        "keywords": "#5fafd7",
+        "types": "#a4a4a4",
+        "keywords": "#369bcd",
         "textMateRules": [
             {
                 "scope": "punctuation.definition.string, constant.character, constant.character.escaped, constant.numeric, string.regexp, constant.numeric.css, keyword.other.unit.css, constant.other.color.css, support.constant.css, string, punctuation.definition.string",
@@ -32,21 +32,21 @@
             {
                 "scope": "comment, comment.block, punctuation.definition.comment",
                 "settings": {
-                    "foreground": "#6A9955",
+                    "foreground": "#539547",
                     "fontStyle": ""
                 }
             },
             {
-                "scope": "support.class, support.function, entity.name.class, entity.name.function.decorator, entity.other.inherited-class, variable.language, constant.language, keyword.operator",
+                "scope": "support.class, support.function, entity.name.class, entity.name.function.decorator, entity.other.inherited-class, variable.language, constant.language, keyword.operator, variable.other.enummember, variable.other, punctuation.accessor",
                 "settings": {
-                    "foreground": "#b8b2ae",
+                    "foreground": "#a4a4a4",
                     "fontStyle": ""
                 }
             },
             {
-                "scope": "support.type.vendored.property-name, support.type.property-name, variable.css, variable.scss, variable.other.less, source.coffee.embedded,  entity.name.tag,keyword.operator.new, keyword.operator.expression, keyword.operator.cast, keyword.operator.sizeof, keyword.operator.typeid, keyword.operator.alignas, keyword.operator.instanceof, keyword.operator.logical.python, keyword.operator.wordlike",
+                "scope": "support.type.vendored.property-name, support.type.property-name, variable.css, variable.scss, variable.other.less, source.coffee.embedded,  entity.name.tag,keyword.operator.new, keyword.operator.expression, keyword.operator.cast, keyword.operator.sizeof, keyword.operator.typeid, keyword.operator.alignas, keyword.operator.instanceof, keyword.operator.logical.python, keyword.operator.wordlike, storage.modifier, keyword",
                 "settings": {
-                    "foreground": "#5fafd7",
+                    "foreground": "#369bcd",
                 }
             }
         ],
@@ -90,8 +90,8 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
-        "editor.background": "#1f1d1d",
-        "editor.foreground": "#b8b2ae",
+        "editor.background": "#1a1a1a",
+        "editor.foreground": "#a4a4a4",
         "editor.lineHighlightBorder": "#00000000",
         "editor.lineHighlightBackground": "#44414080",
         "editorBracketMatch.border": "#00000000",
@@ -99,11 +99,11 @@
         "statusBar.background" : "#3a3a3a",
         "statusBar.noFolderBackground" : "#2a2a2a",
         "statusBar.debuggingBackground": "#3a3a3a",
-        "sideBar.background": "#1f1d1d",
-        "sideBar.foreground": "#b8b2ae",
-        "terminal.background": "#1f1d1d",
-        "terminal.foreground": "#b8b2ae",
-        "terminal.ansiBrightWhite": "#b8b2ae"
+        "sideBar.background": "#1a1a1a",
+        "sideBar.foreground": "#a4a4a4",
+        "terminal.background": "#1a1a1a",
+        "terminal.foreground": "#a4a4a4",
+        "terminal.ansiBrightWhite": "#a4a4a4"
     },
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": true,

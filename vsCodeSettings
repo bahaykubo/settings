@@ -81,6 +81,8 @@
     "python.linting.pycodestyleArgs": [
         "--max-line-length=120"
     ],
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
     "terminal.integrated.shell.windows": "C:\\Git\\bin\\bash.exe",
     "debug.console.fontSize": 11,
     "markdown.preview.fontSize": 11,

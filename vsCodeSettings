@@ -24,7 +24,7 @@
         "keywords": "#369bcd",
         "textMateRules": [
             {
-                "scope": "punctuation.definition.string, constant.character, constant.character.escaped, constant.numeric, string.regexp, constant.numeric.css, keyword.other.unit.css, constant.other.color.css, support.constant.css, string, punctuation.definition.string",
+                "scope": "punctuation.definition.string, constant.character, constant.character.escaped, constant.numeric, string.regexp, constant.numeric.css, keyword.other.unit.css, constant.other.color.css, support.constant.css, string, punctuation.definition.string, keyword.other.unit",
                 "settings": {
                     "foreground": "#cca77c"
                 }
@@ -44,7 +44,7 @@
                 }
             },
             {
-                "scope": "support.type.vendored.property-name, support.type.property-name, variable.css, variable.scss, variable.other.less, source.coffee.embedded,  entity.name.tag,keyword.operator.new, keyword.operator.expression, keyword.operator.cast, keyword.operator.sizeof, keyword.operator.typeid, keyword.operator.alignas, keyword.operator.instanceof, keyword.operator.logical.python, keyword.operator.wordlike, storage.modifier, keyword",
+                "scope": "support.type.vendored.property-name, support.type.property-name, variable.css, variable.scss, variable.other.less, source.coffee.embedded,  entity.name.tag,keyword.operator.new, keyword.operator.expression, keyword.operator.cast, keyword.operator.sizeof, keyword.operator.typeid, keyword.operator.alignas, keyword.operator.instanceof, keyword.operator.logical.python, keyword.operator.wordlike, storage.modifier, keyword, entity.other.attribute-name.html",
                 "settings": {
                     "foreground": "#369bcd",
                 }

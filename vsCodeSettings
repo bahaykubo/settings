@@ -102,7 +102,7 @@
         // "editorError.foreground": "#00000000",
         // "editorWarning.foreground": "#00000000",
         // "editorInfo.foreground": "#00000000",
-        "editor.selectionBackground": "#3298fd42",
+        "editor.selectionBackground": "#565a5e65",
         "editor.background": "#1a1a1a",
         "editor.foreground": "#a4a4a4",
         "editor.lineHighlightBorder": "#00000000",

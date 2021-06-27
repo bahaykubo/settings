@@ -97,6 +97,7 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "material-icon-theme",
     "editor.renderIndentGuides": false,
+    "editor.occurrencesHighlight": false,
     "workbench.colorCustomizations": {
         // "editorError.foreground": "#00000000",
         // "editorWarning.foreground": "#00000000",
